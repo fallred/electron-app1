@@ -5,7 +5,18 @@
   "main": "main.js",
   "author": "Jane Doe",
   "license": "MIT",
+  "dependencies": {
+    "electron": "^24.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.8.3",
+    "@types/node": "^20.2.5",
+    "@types/protobufjs": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0"
+  },
   "scripts": {
-    "start": "electron ./main/index.js"
+    "start": "electron ./src/main/index.js"
   }
 }
