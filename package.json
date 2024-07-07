@@ -17,6 +17,6 @@
     "@typescript-eslint/parser": "^4.33.0"
   },
   "scripts": {
-    "start": "electron ./src/main/index.js"
+    "start": "electron ./src/main/demo2.js"
   }
 }
